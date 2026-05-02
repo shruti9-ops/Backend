@@ -10,7 +10,7 @@ app.use(express.json());
 
 const cors = require("cors");
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: "https://task-manager-production-8da0.up.railway.app",
   credentials: true
 }));
 
