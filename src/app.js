@@ -10,7 +10,7 @@ app.use(express.json());
 
 const cors = require("cors");
 app.use(cors({
-  origin: "https://task-manager-production-8da0.up.railway.app",
+  origin: "https://task-manager-o3fbaa0vm-shruti9-ops-projects.vercel.app",
   credentials: true
 }));
 
